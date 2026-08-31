@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <title>Evidence Archive</title>
+</head>
+<body class="archive">
+  <header class="archive-head">
+    <div><p class="kicker"><i></i> Evidence Clip Ledger</p><h1>Source archive</h1><p>Review, filter, and export the evidence you deliberately captured.</p></div>
+    <div class="actions"><button id="exportJson" class="secondary">Export JSON</button><button id="exportCsv" class="secondary">Export CSV</button></div>
+  </header>
+
+  <main>
+    <section class="stats">
+      <article><strong id="recordCount">0</strong><span>records</span></article>
+      <article><strong id="strongCount">0</strong><span>strong sources</span></article>
+      <article><strong id="caseCount">0</strong><span>cases</span></article>
+      <article><strong>LOCAL</strong><span>storage mode</span></article>
+    </section>
+    <section class="toolbar"><input id="search" type="search" placeholder="Search case, title, URL, fact, or note"><button id="clearAll" class="danger secondary">Delete all</button></section>
+    <section id="recordList" class="records"><p class="empty">No evidence records saved yet.</p></section>
+    <section class="policy-note"><h2>Privacy by design</h2><p>Records remain in Chrome local extension storage. Evidence Clip Ledger has no server, analytics, advertising, telemetry, background browsing, or host permissions. Exported files leave the extension only when you explicitly download them.</p><a href="privacy.html">Read the full privacy disclosure</a></section>
+  </main>
+  <script src="archive.js"></script>
+</body>
+</html>
