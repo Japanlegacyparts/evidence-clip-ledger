@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <title>Evidence Clip Ledger</title>
+</head>
+<body class="popup">
+  <header class="masthead">
+    <div class="logo">EC</div>
+    <div><strong>Evidence Clip</strong><span>Source ledger</span></div>
+    <button id="openArchive" class="text-button" type="button">Archive</button>
+  </header>
+
+  <main>
+    <section class="page-card">
+      <p class="kicker"><i></i> Current page</p>
+      <h1 id="pageTitle">Reading active tab...</h1>
+      <p id="pageUrl" class="url"></p>
+    </section>
+
+    <form id="evidenceForm">
+      <label>Fact supported<textarea id="fact" required rows="3" placeholder="Write the exact fact this page supports"></textarea></label>
+      <div class="grid-two">
+        <label>Authority<select id="authority"><option value="A">A - Official</option><option value="B">B - Technical</option><option value="C">C - Physical</option><option value="D">D - Claim only</option></select></label>
+        <label>Strength<select id="strength"><option value="1">1 - Lead</option><option value="2">2 - Weak</option><option value="3" selected>3 - Usable</option><option value="4">4 - Strong</option><option value="5">5 - Decisive</option></select></label>
+      </div>
+      <label>Case or project<input id="caseName" placeholder="e.g. AE86 alternator"></label>
+      <label>Notes<textarea id="notes" rows="2" placeholder="Scope, date boundary, conflict, or next check"></textarea></label>
+      <button class="primary" type="submit">Save evidence record</button>
+    </form>
+    <p id="status" class="status" role="status">Stored locally on this device.</p>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>
