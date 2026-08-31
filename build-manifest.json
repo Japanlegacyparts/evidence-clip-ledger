@@ -1,0 +1,22 @@
+{
+  "built_at": "2026-08-22T19:27:44.1789560Z",
+  "product": "Evidence Clip Ledger",
+  "version": "1.0.0",
+  "format": "Chrome Extension Manifest V3",
+  "artifacts": {
+    "outputs/chrome-web-store-evidence-clip-ledger-20260823/evidence-clip-ledger-1.0.0.zip": "ad80d03c216653f56765a19a2800f68d56bc3100f6dc41ca8f7de184c0cfcd2b",
+    "outputs/chrome-web-store-evidence-clip-ledger-20260823/extension/manifest.json": "baf280d8235c853414696b3f93afbf146a3568eee21314fd95befec9e306cce6",
+    "outputs/chrome-web-store-evidence-clip-ledger-20260823/extension/popup.js": "7ff3559a2a904a60b58c4442dd3641791259574587ee37c262e87e45229649c0",
+    "outputs/chrome-web-store-evidence-clip-ledger-20260823/extension/archive.js": "329b1baca1491eb491f94308ebc93ee2c82b1ba5ee48bf799037b80eba014ace",
+    "outputs/chrome-web-store-evidence-clip-ledger-20260823/extension/privacy.html": "b180967f88cf27d5e693de9afbd2878d39255fbb23bac448a6365779afae1bf8",
+    "outputs/chrome-web-store-evidence-clip-ledger-20260823/store-screenshots/01-popup-420x600.png": "949ae5492a91f547ec2eaf4df2527fedea5152ea004f7f2895734191f6baeb20",
+    "outputs/chrome-web-store-evidence-clip-ledger-20260823/store-screenshots/02-archive-1280x800.png": "dea078289dc5eef3e0c9b625b56f6a6d5a6f0b4aa007f28bb36648913221b48f",
+    "outputs/chrome-web-store-evidence-clip-ledger-20260823/store-listing.json": "c142046017025138ad296be03d7ceb52eb6dec0255612e7bd94b467bc41f1fd2"
+  },
+  "official_basis": [
+    "https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3",
+    "https://developer.chrome.com/docs/webstore/register",
+    "https://developer.chrome.com/docs/webstore/publish/",
+    "https://developer.chrome.com/docs/webstore/user_data"
+  ]
+}
