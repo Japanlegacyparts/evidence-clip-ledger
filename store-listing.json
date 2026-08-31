@@ -1,0 +1,22 @@
+{
+  "channel": "Chrome Web Store",
+  "name": "Evidence Clip Ledger",
+  "summary": "Save the current page as a graded evidence record and export a local source ledger.",
+  "single_purpose": "When the user invokes the extension, capture the active page title and URL together with a user-written fact, evidence grade, strength, case, and note in a local source ledger.",
+  "category": "Productivity",
+  "language": "English",
+  "distribution": "Public",
+  "pricing": "Free Store listing; monetization path must use a separately approved payment system",
+  "permissions": {
+    "activeTab": "Temporarily reads only the active tab title and URL when the user clicks the extension.",
+    "storage": "Stores user-created evidence records in Chrome local extension storage."
+  },
+  "data_use": {
+    "collects_or_transmits_to_developer": false,
+    "sells_data": false,
+    "uses_data_for_ads": false,
+    "allows_human_access": false,
+    "remote_code": false
+  },
+  "publication_status": "LOCAL_EXTENSION_READY_DEVELOPER_ACCOUNT_FEE_AND_STORE_UPLOAD_PENDING"
+}
